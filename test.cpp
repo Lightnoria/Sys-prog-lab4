@@ -84,4 +84,3 @@ TEST(SwapTest, SwapsValuesCorrectly)
     EXPECT_STREQ(a, "banana");
     EXPECT_STREQ(b, "apple");
 }
-
