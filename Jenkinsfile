@@ -5,7 +5,8 @@ pipeline {
         stage('Checkout') {
             steps {
                 git url: 'https://github.com/Lightnoria/Sys-prog-lab4.git', 
-                    credentialsId: 'github-token'
+                    credentialsId: 'bcd9cb46-47ca-4055-bcaf-e77d19762bb9
+'
             }
         }
 
